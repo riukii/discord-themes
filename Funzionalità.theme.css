@@ -12,7 +12,13 @@
 .container_a62383.nitro-pink_a62383.popoverGradientWrapper_d6f39b,
 .wrapper__0d616.wrapperVisible__0d616,
 .container_c0c49a {
-	display: none;
+	display: none !important;
+}
+
+/* Hides the Top Help button */
+.trailing_c38106 .button__85643.iconWrapper__9293f.clickable__9293f[aria-label="Help"],
+.trailing_c38106 a.anchor_edefb8.anchorUnderlineOnHover_edefb8 {
+    display: none !important;
 }
 
 /* Is Yapping... */
