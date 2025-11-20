@@ -5,21 +5,26 @@
 * @description Cose utili che aggiungo
 */
 
-/* Remove useless buttons */
+/* REMOVE USELESS BUTTONS */
+
+/* Remove "nitro" and "shop" buttons on top of friends list */
 .channel__972a0.container_e45859:has([data-list-item-id$="___nitro"]),
 .channel__972a0.container_e45859:has([data-list-item-id$="___shop"]),
-.containerDefault_c69b6d.wrapper__2ea32.container__877f0:has([data-list-item-id="channels___skill-trees-1271208155275071588"]),
-.container_a62383.nitro-pink_a62383.popoverGradientWrapper_d6f39b,
+/* Remove "claim quest" on top of "voice connected" */
 .wrapper__0d616.wrapperVisible__0d616,
-.container_c0c49a {
+/* Hides the Top Help button */
+.trailing_c38106 .button__85643.iconWrapper__9293f.clickable__9293f[aria-label="Help"],
+.trailing_c38106 a.anchor_edefb8.anchorUnderlineOnHover_edefb8,
+/* Remove useless buttons beside chatbox */
+.button__74017.button__24af7:has(.lottieIcon__5eb9b.lottieIconColors__5eb9b),
+.button__74017.button__24af7:has([xmlns="http://www.w3.org/2000/svg"]),
+.spacer__74017,
+/* Remove "Server Boosts" button on top of server channels */
+.containerDefault_c69b6d.wrapper__2ea32.container__877f0
+ {
 	display: none !important;
 }
 
-/* Hides the Top Help button */
-.trailing_c38106 .button__85643.iconWrapper__9293f.clickable__9293f[aria-label="Help"],
-.trailing_c38106 a.anchor_edefb8.anchorUnderlineOnHover_edefb8 {
-    display: none !important;
-}
 
 /* Is Yapping... */
 .typingDots_b88801 > .ellipsis_b88801+.text_b88801 {
