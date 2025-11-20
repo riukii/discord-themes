@@ -26,6 +26,14 @@
 	--status-positive: var(--bianco);
 }
 
+/* REMOVE BUTTONS PERSONALIZED */
+ul.content_d125d2 li.channel__972a0.container_e45859:has([data-list-item-id$="___quests"])
+
+  {
+	display: none !important;
+}
+
+
 
 /* REMOVE USELESS BUTTONS */
 
@@ -59,6 +67,6 @@ div.side_aa8da2 > div.item_aa8da2.themed_aa8da2[data-tab-id="Library Inventory"]
 /* Billing */
 div.side_aa8da2 > div.item_aa8da2.themed_aa8da2[data-tab-id="Billing"]
  
- {
+  {
 	display: none !important;
 }
