@@ -1,0 +1,64 @@
+/**
+* @name Bigodini
+* @author bigodino
+* @version 2.0
+* @description Tema fatto per pinolina :3
+*/
+
+:root {
+	--bianco: #dedef4;
+	--blu: #1A285A;
+}
+
+.border__2f4f7.speaking__2f4f7 {
+	--green-360: var(--bianco);
+}
+
+.rtcConnectionStatusConnected__06d62.rtcConnectionStatusLabel__06d62.hoverableStatus_cdcd10.hoverRoll__0263c {
+	color: var(--bianco);
+}
+
+.iconBadge__650eb.isCurrentUserConnected__650eb.iconBadge__2b1f5.base__2b1f5.eyebrow__2b1f5.baseShapeRound__2b1f5 {
+	--status-positive: var(--blu);
+}
+
+.ping__06d62.largePing__06d62 {
+	--status-positive: var(--bianco);
+}
+
+
+/* REMOVE USELESS BUTTONS */
+
+/* Remove "NITRO" and "SHOP" buttons on top of FRIENDS LIST */
+ul.content_d125d2 li.channel__972a0.container_e45859:has([data-list-item-id$="___nitro"]),
+ul.content_d125d2 li.channel__972a0.container_e45859:has([data-list-item-id$="___shop"]),
+/* Remove "CLAIM QUEST" on top of "voice connected" */
+section.panels__5e434 div.wrapper__0d616.wrapperVisible__0d616,
+/* Hides the top HELP button */
+div.trailing_c38106 > a.anchor_edefb8.anchorUnderlineOnHover_edefb8,
+/* Remove useless buttons beside CHATBOX */
+div.buttons__74017.reducedGap__74017 > div.button__74017.button__24af7:has(.lottieIcon__5eb9b.lottieIconColors__5eb9b),
+div.buttons__74017.reducedGap__74017 > div.spacer__74017,
+div.buttons__74017.reducedGap__74017 > div.button__74017.button__24af7:has([xmlns="http://www.w3.org/2000/svg"]),
+/* Remove "SERVER BOOSTS" button on top of server channels */
+div.scroller__629e4.thin_d125d2.scrollerBase_d125d2.fade_d125d2 div.containerDefault_c69b6d.wrapper__2ea32.container__877f0,
+
+/* REMOVE ALL THE "PAYMENT SETTINGS" SECTION IN SETTINGS */
+/* Remove first SEPARATOR */
+div.side_aa8da2 > div.separator_aa8da2:nth-of-type(20),
+/* Payment Settings HEADER (fragile approach) */
+div.side_aa8da2 > div.header_aa8da2:has(.eyebrow_cf4812.headerText_aa8da2):nth-of-type(21),
+/* Nitro */
+div.side_aa8da2 > div.premiumTab__581ea.item_aa8da2.themed_aa8da2:has(.premiumLabel_e681d1),
+/* Server Boost */
+div.side_aa8da2 > div.item_aa8da2.themed_aa8da2[data-tab-id="Nitro Server Boost"],
+/* Subscriptions */
+div.side_aa8da2 > div.item_aa8da2.themed_aa8da2[data-tab-id="Subscriptions"],
+/* Gift Inventory */
+div.side_aa8da2 > div.item_aa8da2.themed_aa8da2[data-tab-id="Library Inventory"],
+/* Billing */
+div.side_aa8da2 > div.item_aa8da2.themed_aa8da2[data-tab-id="Billing"]
+ 
+ {
+	display: none !important;
+}
