@@ -1,41 +1,27 @@
 /**
 * @name Functionalities
 * @author riukii
-* @version 2.0
-* @description Features I like to add.
+* @version 3.0
+* @description Features I like to add (or remove).
 */
 
 /* REMOVE USELESS BUTTONS */
 
 /* Remove "NITRO" and "SHOP" buttons on top of FRIENDS LIST */
-ul.content_d125d2 li.channel__972a0.container_e45859:has([data-list-item-id$="___nitro"]),
-ul.content_d125d2 li.channel__972a0.container_e45859:has([data-list-item-id$="___shop"]),
+div._99e7cad8d4c55236-scroller.d125d22cdfd32cfe-thin.d125d22cdfd32cfe-scrollerBase.d125d22cdfd32cfe-fade li._972a0d22c8afa7f0-channel.e45859d60799ad7c-container:has([data-list-item-id$="___nitro"]),
+div._99e7cad8d4c55236-scroller.d125d22cdfd32cfe-thin.d125d22cdfd32cfe-scrollerBase.d125d22cdfd32cfe-fade li._972a0d22c8afa7f0-channel.e45859d60799ad7c-container:has([data-list-item-id$="___shop"]),
+/* Remove "SERVER BOOSTS" button on top of server channels */
+ul.d125d22cdfd32cfe-content div.c69b6db0641110f6-containerDefault._2ea32c412048f708-wrapper._877f0e9008f12b8d-container,
 /* Remove "CLAIM QUEST" on top of "voice connected" */
 section.panels__5e434 div.wrapper__0d616.wrapperVisible__0d616,
 /* Hides the top HELP button */
-div.trailing_c38106 > a.anchor_edefb8.anchorUnderlineOnHover_edefb8,
+div.c38106a3f0c3ca76-trailing > a.edefb8e22d63c542-anchor.edefb8e22d63c542-anchorUnderlineOnHover,
 /* Remove useless buttons beside CHATBOX */
-div.buttons__74017.reducedGap__74017 > div.button__74017.button__24af7:has(.lottieIcon__5eb9b.lottieIconColors__5eb9b),
-div.buttons__74017.reducedGap__74017 > div.spacer__74017,
-div.buttons__74017.reducedGap__74017 > div.button__74017.button__24af7:has([xmlns="http://www.w3.org/2000/svg"]),
-/* Remove "SERVER BOOSTS" button on top of server channels */
-div.scroller__629e4.thin_d125d2.scrollerBase_d125d2.fade_d125d2 div.containerDefault_c69b6d.wrapper__2ea32.container__877f0,
-
-/* REMOVE ALL THE "PAYMENT SETTINGS" SECTION IN SETTINGS */
-/* Remove first SEPARATOR */
-div.side_aa8da2 > div.separator_aa8da2:nth-of-type(20),
-/* Payment Settings HEADER (fragile approach) */
-div.side_aa8da2 > div.header_aa8da2:has(.eyebrow_cf4812.headerText_aa8da2):nth-of-type(21),
-/* Nitro */
-div.side_aa8da2 > div.premiumTab__581ea.item_aa8da2.themed_aa8da2:has(.premiumLabel_e681d1),
-/* Server Boost */
-div.side_aa8da2 > div.item_aa8da2.themed_aa8da2[data-tab-id="Nitro Server Boost"],
-/* Subscriptions */
-div.side_aa8da2 > div.item_aa8da2.themed_aa8da2[data-tab-id="Subscriptions"],
-/* Gift Inventory */
-div.side_aa8da2 > div.item_aa8da2.themed_aa8da2[data-tab-id="Library Inventory"],
-/* Billing */
-div.side_aa8da2 > div.item_aa8da2.themed_aa8da2[data-tab-id="Billing"]
+div._740174f3d6a2c8fe-buttons._740174f3d6a2c8fe-reducedGap > div.c0c49a3e5c8626ac-container, /* "gift nitro" button */
+div._740174f3d6a2c8fe-buttons._740174f3d6a2c8fe-reducedGap > div._740174f3d6a2c8fe-spacer,  /* vertical line between "gift nitro" and "add media" */
+div._740174f3d6a2c8fe-buttons._740174f3d6a2c8fe-reducedGap > div._740174f3d6a2c8fe-button._24af7f4d0326ba4f-button:has([xmlns="http://www.w3.org/2000/svg"]), /* "add media" button */
+/* Remove the "payment settings" section in settings */
+ul._409aa1aeee28d5f7-section[aria-label="Payment Settings"]
  
  {
 	display: none !important;
@@ -43,7 +29,7 @@ div.side_aa8da2 > div.item_aa8da2.themed_aa8da2[data-tab-id="Billing"]
 
 
 /* Is Yapping... */
-.typingDots_b88801 > .ellipsis_b88801+.text_b88801 {
+.b8880176888cc928-typingDots > .b8880176888cc928-ellipsis+.b8880176888cc928-text {
   font-size: 0;
   height: 16px;
   >strong {
