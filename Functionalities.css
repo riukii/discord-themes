@@ -1,7 +1,7 @@
 /**
 * @name Functionalities
 * @author riukii
-* @version 3.0
+* @version 3.1
 * @description Features I like to add (or remove).
 */
 
@@ -13,7 +13,7 @@ div._99e7cad8d4c55236-scroller.d125d22cdfd32cfe-thin.d125d22cdfd32cfe-scrollerBa
 /* Remove "SERVER BOOSTS" button on top of server channels */
 ul.d125d22cdfd32cfe-content div.c69b6db0641110f6-containerDefault._2ea32c412048f708-wrapper._877f0e9008f12b8d-container,
 /* Remove "CLAIM QUEST" on top of "voice connected" */
-section.panels__5e434 div.wrapper__0d616.wrapperVisible__0d616,
+section._5e434347c823b592-panels > div._0d6162a4e6a4b802-mask,
 /* Hides the top HELP button */
 div.c38106a3f0c3ca76-trailing > a.edefb8e22d63c542-anchor.edefb8e22d63c542-anchorUnderlineOnHover,
 /* Remove useless buttons beside CHATBOX */
