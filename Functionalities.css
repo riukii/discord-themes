@@ -1,7 +1,7 @@
 /**
 * @name Functionalities
 * @author riukii
-* @version 3.1
+* @version 3.2
 * @description Features I like to add (or remove).
 */
 
@@ -21,7 +21,9 @@ div._740174f3d6a2c8fe-buttons._740174f3d6a2c8fe-reducedGap > div.c0c49a3e5c8626a
 div._740174f3d6a2c8fe-buttons._740174f3d6a2c8fe-reducedGap > div._740174f3d6a2c8fe-spacer,  /* vertical line between "gift nitro" and "add media" */
 div._740174f3d6a2c8fe-buttons._740174f3d6a2c8fe-reducedGap > div._740174f3d6a2c8fe-button._24af7f4d0326ba4f-button:has([xmlns="http://www.w3.org/2000/svg"]), /* "add media" button */
 /* Remove the "payment settings" section in settings */
-ul._409aa1aeee28d5f7-section[aria-label="Payment Settings"]
+ul._409aa1aeee28d5f7-section[aria-label="Payment Settings"],
+div#vc-spotify-player > div.vc-spotify-button-row, /* "spotify player" plugin's controls */
+section._5e434347c823b592-panels > div._5dec784a68542d60-panel._5e434347c823b592-activityPanel /* "streaming" section over "voice connected" */
  
  {
 	display: none !important;
