@@ -17,9 +17,9 @@ ul[class*="content"] div[class*="containerDefault"][class*="wrapper"][class*="co
 /* Hides the top HELP button */
 div[class*="trailing"] > a[class*="anchor"][class*="anchorUnderlineOnHover"][href*="support.discord.com"],
 /* Remove useless buttons beside CHATBOX */
-div[class*="buttons"][class*="reducedGap"] div[class*="button"]:has(path[d^=" M-7,10 C-8.104"]), /* "gift nitro" button */
-div[class*="buttons"][class*="reducedGap"] > div[class*="spacer"],  /* vertical line between "gift nitro" and "add media" */
-div[class*="buttons"][class*="reducedGap"] > div[class*="button"]:has(path[d^="M2 5a3 3 0 0 1 3-3h14a3"]), /* "add media" button */
+div[class*="channelTextArea"] div[class*="container"]:has(svg path[d^=" M7,-6 C7,-7.657"]), /* "gift nitro" button */
+div[class*="channelTextArea"] div[class*="buttonContainer"]:has(svg path[d^=" M-7,-10 C-8.6569"]), /* gif button */
+div[class*="channelTextArea"] div[class*="buttonContainer"]:has(svg path[d^=" M-6,-10 C-6,-10 6,-10 6,-10 C8.208999633789062,-10 10,-8.2"]), /* sticker button */
 /* Remove the "PAYMENT SETTINGS" section in settings */
 nav[class*="nav"] > ul[class*="section"]:has(>[class*="itemContainer"][data-settings-sidebar-item*="nitro"]):has(>[data-settings-sidebar-item*="subscriptions"]):has(>[data-settings-sidebar-item*="gift"]),
 /* "SPOTIFY PLAYER" plugin's controls */
