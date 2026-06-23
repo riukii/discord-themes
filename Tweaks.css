@@ -21,7 +21,7 @@ div[class*="channelTextArea"] div[class*="container"]:has(svg path[d^=" M7,-6 C7
 div[class*="channelTextArea"] div[class*="buttonContainer"]:has(svg path[d^=" M-7,-10 C-8.6569"]), /* gif button */
 div[class*="channelTextArea"] div[class*="buttonContainer"]:has(svg path[d^=" M-6,-10 C-6,-10 6,-10 6,-10 C8.208999633789062,-10 10,-8.2"]), /* sticker button */
 /* Remove the "PAYMENT SETTINGS" section in settings */
-nav[class*="nav"] > ul[class*="section"]:has(>[class*="itemContainer"][data-settings-sidebar-item*="nitro"]):has(>[data-settings-sidebar-item*="subscriptions"]):has(>[data-settings-sidebar-item*="gift"]),
+nav[class*="nav"] li[class*="section"]:has(>div[class*="sectionLabel"]):has(>ul[class*="sectionList"]>li[data-settings-sidebar-item*="nitro"]):has(>ul[class*="sectionList"]>li[data-settings-sidebar-item*="subscriptions"]):has(>ul[class*="sectionList"]>li[data-settings-sidebar-item*="gift"]):has(>ul[class*="sectionList"]>li[data-settings-sidebar-item*="billing"]):has(>ul[class*="sectionList"]>li[data-settings-sidebar-item*="premium"]),
 /* "SPOTIFY PLAYER" plugin's controls */
 div#vc-spotify-player > div.vc-spotify-button-row, 
 /* "STREAMING" section over "VOICE CONNECTED" */
