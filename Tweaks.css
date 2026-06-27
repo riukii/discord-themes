@@ -1,7 +1,6 @@
 /**
 * @name Tweaks
 * @author riukii
-* @version 4.0.0
 * @description Features I like to add (or remove).
 */
 
@@ -25,8 +24,9 @@ nav[class*="nav"] li[class*="section"]:has(>div[class*="sectionLabel"]):has(>ul[
 /* "SPOTIFY PLAYER" plugin's controls */
 div#vc-spotify-player > div.vc-spotify-button-row, 
 /* "STREAMING" section over "VOICE CONNECTED" */
-section[class*="panels"] > div[class*="panel"][class*="activityPanel"]
- 
+section[class*="panels"] > div[class*="panel"][class*="activityPanel"],
+/* "Try nitro" occasional popups */
+div[id*="popout"]:has(div[class*="nitro-pink"])
  {
 	display: none !important;
 }
